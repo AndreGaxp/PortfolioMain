@@ -1,0 +1,175 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #555;
+}
+
+p{
+    margin: 15px 0px 15px;
+    line-height: 1.5;
+}
+
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;;
+}
+
+textarea{
+    height: 100px;
+}
+
+hr{
+    margin-top: 40px;
+}
+
+
+/* ----------- Menu fixado na esquerda. ----------- */
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    padding: 100px 80px 0;
+    box-sizing: border-box;
+    background-image: url(../img/overlay.png), url(../img/bg.jpg);
+    background-position: center top;
+    background-size: auto, cover;
+    text-align: right;
+}
+
+.main-footer{
+    position: fixed;
+    bottom: 100px;
+    width: 30%;
+    padding: 0px 100px 0;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.fa-brands{
+    width: 16%;
+}
+
+.main-header-title{
+    font-size: 23px;
+    color: rgba(255, 255, 255, .6);
+    font-weight: normal;
+}
+
+.main-header-title strong{
+    color: white;
+    font-weight: bold;
+}
+
+.main-header img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* ----------- Main content -----------*/
+.main-content{
+    width: 70%;
+    margin-left: 31%;
+    padding: 50px 50px 90px;
+    box-sizing: border-box;
+}
+
+
+/* ----------- Sobre mim -----------*/
+
+.main-content-section-about{
+    margin-bottom: 80px;
+}
+
+/* ----------- Projetos recents -----------*/
+
+.recent-works-card{
+    margin-bottom: 50px;
+    width: 100%;
+    max-height: 100%;
+}
+
+.recent-works-card img{
+    width: 100%;
+    border-radius: 20px; 
+}    
+
+.recent-works-card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+
+
+
+/* ----------- Botão Projeto Completo ----------- */
+
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-default:hover{
+    background-color: #b9ffeb;
+    transition: 0.4s;
+}
+
+
+
+/* Formulários */
+
+.row{
+    overflow: auto;
+}
+
+.col-2{
+    width: 49%;
+    float: left;
+}
+
+.col-2:first-child{
+    margin-right: 1%;
+    margin-bottom: 25px;
+}
+
+.col-2:last-child{
+    margin-left: 1% ;
+}
+
+.col-2-3{
+    width: 65%;
+    float: left;
+}
+
+.col-1-3{
+    width: 32%;
+    margin-left: 3%;
+    float: left;
+}
+
+.msg{
+    padding-bottom: 5px;
+}
+
+/* Icons Awesomem icons*/
+
+.fa-solid{
+    margin-right: 5px;
+}
+
